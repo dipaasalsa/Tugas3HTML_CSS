@@ -1,0 +1,46 @@
+* {
+    margin: 2%;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    /* Menengahkan Gambar */
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/* selector dengan nama tag */
+h1 {
+    color: black;
+}
+
+/* selector id */
+#judul-text {
+    color: orange;
+}
+
+/* selector class */
+.second-text {
+    align-self: center;
+    color: purple;
+}
+
+.text-tambahan {
+    align-self: center;
+    color: orange;
+    font-size: 22px;
+}
+
+/* Multy Selector */
+h2, h3, h4 {
+    color: purple;
+}
+
+/* lebih sepesifik lagi bisa */
+h2.second-text {
+    color: azure;
+}
